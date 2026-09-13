@@ -36,6 +36,7 @@ run yourself rather than things you have to take my word for.
 
 | | |
 |---|---|
+| **[erp-stock-assistant](https://github.com/Hariharasudhan776/erp-stock-assistant)** | Ask a live **Oracle 19c ERP** about stock in plain English. A Claude agent writes the SQL, a **SELECT-only validator plus a read-only session** runs it, and the page streams the query, a sortable result grid and the answer. Prompt-cached schema notes keep a question at **2 to 4 cents**, with a daily budget hard-stop. |
 | **[pg-perf-lab](https://github.com/Hariharasudhan776/pg-perf-lab)** | Eight realistic PostgreSQL performance problems, the fix for each, and **harness-generated `EXPLAIN ANALYZE` evidence** that the fix actually worked. The evidence is produced by the harness, not pasted in — so the numbers cannot drift from the code. |
 | **[pos-desktop](https://github.com/Hariharasudhan776/pos-desktop)** | A point-of-sale till in Electron + Node + PostgreSQL. Money in **integer minor units** (no floats touching currency), an **append-only stock ledger**, and **55 tests** — including a concurrency race for the last unit in stock. |
 
@@ -54,7 +55,7 @@ jobs · alert-log, tablespace and session monitoring · Linux · IIS
 **Enterprise** — ERP development and support (Axpert) · finance, inventory, procurement
 and QA/QC modules · cost reporting · requirements gathering with the people who use it
 
-**AI-assisted development** — I build with LLMs daily, including a job-search assistant
+**AI-assisted development** — I build with LLMs daily: a natural-language SQL assistant over a production Oracle ERP with hard read-only guarantees, and a job-search assistant
 whose matching is deterministic code rather than a model, precisely so its scores can be
 explained and argued with.
 
