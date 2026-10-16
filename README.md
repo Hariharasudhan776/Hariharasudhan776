@@ -1,5 +1,7 @@
 [**Explore my portfolio**](https://hariharasudhan776.github.io/) - selected projects, engineering decisions and professional experience.
 
+My application work spans Android ERP access, BOQ budget controls and revisions, cost reporting, sales/profit/income analysis, QA/QC and HSE dashboards, approval notifications, customer credit controls and business-data chatbots. Explore the portfolio for project notes; company source and data remain private.
+
 <h1 align="center">Hariharasudhan</h1>
 
 <p align="center">
